@@ -19,16 +19,13 @@ let students = [
     {name:"smith", marks:88},
     {name:"thomas", marks:95},
     {name:"shelby", marks:68},
-];
-// total
+]
 let total = 0;
 for(let  i=0; i<students.length; i++){
     total +=students[i].marks;
 }
-// calculate average
  let average = total/students.length;
 
- //determine the grade
  let grade;
 
  if(average<60){
