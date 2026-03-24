@@ -104,3 +104,39 @@ else{
     largest = numbe3
 }
 console.log("the largest is: ", largest);
+
+//Write a JavaScript program that checks whether the last digit of three positive integers is the same.
+let nm1 = 39;
+let nm2 = 44;
+let nm3 = 57;
+
+let last1 = nm1%10;
+let last2 = nm2 % 10;
+let last3 = nm3%10;
+
+if(last1 === last2 && last2 == last3){
+   console.log("all last digits are same: ");
+}
+else{
+   console.log("they are not same")
+}
+
+// Write a JavaScript program to check whether all the digits in a given number are the same or not.
+
+let numbr = 7777; 
+let nmStr = numbr.toString();
+let firstDigit = nmStr[0];
+
+let allSame = true;
+for (let i = 1; i < nmStr.length; i++) {
+  if (nmStr[i] !== firstDigit) {
+    allSame = false;
+    break; 
+  }
+}
+
+if (allSame) {
+  console.log("All digits are the same");
+} else {
+  console.log("Digits are not all the same");
+}
