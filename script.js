@@ -48,14 +48,14 @@ for(let  i=0; i<students.length; i++){
  console.log("Grade is:", grade);
  console.log("average is:",average.toFixed(2));
 
- //Write a JavaScript program to get the difference between a given number and 13, if the number is broader than 13 return double the absolute difference
+ //4Write a JavaScript program to get the difference between a given number and 13, if the number is broader than 13 return double the absolute difference
  let numb1 = 40;
  let numb2 = 30;
 
  let result = (numb1 === 50 || numb2 || (numb1 + numb2 ===50));
  console.log(result);
 
- //Write a JavaScript program to get the difference between a given number and 13, if the number is broader than 13 return double the absolute difference
+ //3Write a JavaScript program to get the difference between a given number and 13, if the number is broader than 13 return double the absolute difference
 
  let number = 20;
  
@@ -68,7 +68,7 @@ for(let  i=0; i<students.length; i++){
 
  console.log("results:" ,difference);
 
- //Write a JavaScript program to create a new string from a given string by changing the position of the first and last characters. The string length must be broader than or equal to 1.
+ //5Write a JavaScript program to create a new string from a given string by changing the position of the first and last characters. The string length must be broader than or equal to 1.
  let gree = "Sparrow"
 
  if(gree.length<=1){
@@ -84,7 +84,7 @@ for(let  i=0; i<students.length; i++){
     console.log("new string is: ", newString);
  }
  
- // Write a JavaScript program to find the largest of three given integers
+ //6 Write a JavaScript program to find the largest of three given integers
 let numbe1 = 15;
 let numbe2 = 42;
 let numbe3 = 27;
@@ -102,7 +102,7 @@ else{
 }
 console.log("the largest is: ", largest);
 
-//Write a JavaScript program that checks whether the last digit of three positive integers is the same.
+//7Write a JavaScript program that checks whether the last digit of three positive integers is the same.
 let nm1 = 39;
 let nm2 = 44;
 let nm3 = 57;
@@ -118,11 +118,12 @@ else{
    console.log("they are not same")
 }
 
-// Write a JavaScript program to check whether all the digits in a given number are the same or not.
+// 8Write a JavaScript program to check whether all the digits in a given number are the same or not.
 
 let numbr = 7777; 
-let nmStr = numbr.toString();
+let nmStr = numbr.toString(); 
 let firstDigit = nmStr[0];
+
 
 let allSame = true;
 for (let i = 1; i < nmStr.length; i++) {
